@@ -1,10 +1,13 @@
 {
+  "homepage": "https://zaidhbtu.github.io/KGN_Bangles_Project",
   "name": "reactpractice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
